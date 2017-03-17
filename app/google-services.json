@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "258085563868",
+    "firebase_url": "https://kuladb-17def.firebaseio.com",
+    "project_id": "kuladb-17def",
+    "storage_bucket": "kuladb-17def.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258085563868:android:ccd848ad455abf9b",
+        "android_client_info": {
+          "package_name": "com.example.prinh.kulafine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258085563868-bqeg6559h2m37u9ff24jgff59rddu4ud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOzuEkB-2HVfvY5jt1BF9nsATrc2zuiIQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
