@@ -10,4 +10,104 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.prinh.kulafine.Aunthentication">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:text="KulaFine"
+        android:gravity="center_horizontal"
+        android:id="@+id/title"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Username"
+            android:textAlignment="center"
+            android:id="@+id/username"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/edit_bg"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:textAlignment="center"
+            android:id="@+id/password"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_bg"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"
+            android:text="Login"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <View
+                android:layout_width="120dp"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="9dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:layout_marginLeft="5dp"/>
+
+            <View
+                android:layout_width="120dp"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="9dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account, Sign up"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login with Facebook"
+            android:background="@drawable/btn_bg"
+            android:textColor="#fff"
+            android:id="@+id/fb"/>
+
+
+    </LinearLayout>
+
+
+
 </RelativeLayout>
