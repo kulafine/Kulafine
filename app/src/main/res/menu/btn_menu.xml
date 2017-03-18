@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/home"
+        android:icon="@drawable/all"
+        android:id="@+id/home"
+        >
+    </item>
+    <item
+        android:title="@string/breackfirst"
+        android:icon="@drawable/breackfirst"
+        android:id="@+id/breackfirst">
+    </item>
+    <item
+        android:title="@string/lunch"
+        android:icon="@drawable/lunch"
+        android:id="@+id/lunch">
+    </item>
+    <item
+        android:title="@string/dinner"
+        android:icon="@drawable/dinner"
+        android:id="@+id/dinner">
+    </item>
+    <item
+        android:title="@string/more"
+        android:icon="@drawable/drawler"
+        android:id="@+id/more">
+    </item>
+
+
+</menu>

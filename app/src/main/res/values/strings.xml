@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Kulafine</string>
     <string name="facebook_app_id">1364138740313990</string>
+    <string name="home">home</string>
+    <string name="breackfirst">breackfast</string>
+    <string name="lunch">lunch</string>
+    <string name="dinner">dinner</string>
+    <string name="more">more</string>
 </resources>
